@@ -1,19 +1,77 @@
+/*
+#ffab02
+#d33433
+#2bb9a8
+#
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 body {
     display: flex;
     height: 100vh;
     text-align: center;
-    background: url('./public/images/667.jpg') no-repeat center center/cover;
+    background: url('./public/images/1.png') no-repeat center center/cover;
     color: #f78327;
+    
 }
 .container {
     height: 100vh;
     width: 100%;
     background: rgba(0, 0, 0, 0.959);
     display: flex;
+    flex-direction: column;
+    
+}
+.container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6rem;
+    
+}
+.container-header-div {
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container-header-ul {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    
+}
+.container-header-ul-li {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+.container-header-ul-li a:hover {
+    background-color: #d333336c;
+    color: gold;
+    border: 1px solid gold;
+    border-radius: 1rem;
+    transition: .5s ease-in-out;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.img-logo {
+    height: 60px;
 }
